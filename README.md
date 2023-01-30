@@ -5,14 +5,12 @@
 
 2. To run server, execute following commands
 ```sh
-cd ChatApp
 cd server
 npm install
 npm start
 ```
 3. To run frontend, execute following commands
 ```sh
-cd ChatApp
 cd frontend
 npm install
 npm start
