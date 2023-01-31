@@ -41,8 +41,8 @@ function App() {
           <button type="submit">Send</button>
         </form>
       </div>
-      <div class="smartphone">
-        <div class="content">
+      <div className="smartphone">
+        <div className="content">
           {chat.map((payload, index) => {
             return (
               <h3 key={index}>
