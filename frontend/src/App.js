@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 import "./App.css";
 
+//connect the backend port here
 const socket = io("http://localhost:7000");
+
+// generate the random user.
 const userName = "User " + parseInt(Math.random() * 10);
-// set the layOut
 
 function App() {
   const [message, setMessage] = useState("");
